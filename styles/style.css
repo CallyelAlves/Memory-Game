@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Righteous', cursive;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.2);
+    height: 100vh;
+}
+#game{
+    display: grid;
+    grid-template: 1fr 1fr 1fr 1fr / 1fr 1fr 1fr 1fr 1fr;
+    row-gap: 18px;
+    column-gap: 30px;
+}
+/* @media screen and (max-width: 750px){
+    #game{
+        grid-template: 1fr 1fr 1fr 1fr 1fr / 1fr 1fr 1fr 1fr;
+    }
+} */
+.card{
+    width: 120px;
+    height: 120px;
+    position: relative;
+    transform-style: preserve-3d; /* colocar o cad em estado 3d */
+    transition: 1s;
+}
+.flip{
+    transform: rotateY(180deg);
+}
+.front, .back{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    border-radius: 15px;
+    cursor: pointer;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
+    backface-visibility: hidden; /* esconder card invertido */
+}
+.front, .back:hover{
+    transition: 500ms;
+    padding: 10px;
+}
+.front{
+    transform: rotateY(180deg); /* inverter cad */ 
+    background-color: white;
+}
+.back{
+    background-color: yellow;
+}
+#gameOver{
+    width: 100%;
+    height: 100%;
+    top: 0px;
+    background-color: rgba(0, 0, 0, 0.9);
+    position: absolute;
+    color: white;
+    font-size: 36px;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+#restart{
+    padding: 20px;
+    font-size: 18px;
+    font-weight: bold;
+    background-color: yellow;
+    color: black;
+    border: none;
+    border-radius: 15px;
+    margin-top: 15px;
+    cursor: pointer;
+}
+#restart:hover{
+    transition: 0.5s;
+    padding: 28px;
+}
