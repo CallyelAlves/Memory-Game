@@ -22,7 +22,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 ## 💻 Projeto
 
-A aplicação é a recriação do famoso jogo da memória, nele você se diverte escolhendo as cartas e tendando acertar as combinações.
+A aplicação é a recriação do famoso jogo da memória, nele você se diverte escolhendo as cartas e tentando acertar as combinações.
 
 ## 🚀 Como executar
 
