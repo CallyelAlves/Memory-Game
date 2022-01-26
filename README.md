@@ -6,7 +6,7 @@
   <a href="#-tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-projeto">Projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-como-executar">Como executar</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-executando-a-aplicação">Executando a aplicação</a>
+  <a href="#-executando-aplicação">Executando aplicação</a>
 </p>
 
 
@@ -29,7 +29,7 @@ A aplicação é a recriação do famoso jogo da memória, nele você se diverte
 - Clone o repositório
 - Abra o arquivo index.html no seu navegador
 
-## 🎬 Executando a aplicação
+## 🎬 Executando aplicação
 
 <p align="center">
   <img alt="apresentação" src="./github/memoryGame.gif">
